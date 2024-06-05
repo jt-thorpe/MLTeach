@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>kb_window</class>
+ <widget class="QMainWindow" name="kb_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="kb_central_widget">
+   <widget class="QFrame" name="kb_central_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>558</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QTreeWidget" name="kb_tree_list">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>250</width>
+       <height>558</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Knowledge Base</string>
+      </property>
+     </column>
+     <item>
+      <property name="text">
+       <string>Linear Regression</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Formula</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Description</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ridge Regression</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Formula</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Description</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Preprocessing</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Standardisation</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>Evaluation</string>
+      </property>
+      <item>
+       <property name="text">
+        <string>Mean Absolute Error (MAE)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mean Squared Error (MSE)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R-Squared (R2)</string>
+       </property>
+      </item>
+     </item>
+     <item>
+      <property name="text">
+       <string>F.A.Q</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QTextBrowser" name="kb_browser">
+     <property name="geometry">
+      <rect>
+       <x>255</x>
+       <y>5</y>
+       <width>540</width>
+       <height>548</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
